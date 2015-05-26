@@ -1,0 +1,108 @@
+"Resource/UI/SpectatorGUIHealth.res"
+{
+	"PlayerStatusHealthImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusHealthImage"
+		"xpos"			"7"
+		"ypos"			"7"
+		"zpos"			"4"
+		"wide"			"18"
+		"wide_minmode"	"14"
+		"tall"			"18"
+		"tall_minmode"	"14"
+		"visible"		"0"
+		"enabled"		"0"
+		"scaleImage"	"1"	
+	}		
+	"PlayerStatusHealthImageBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusHealthImageBG"
+		"xpos"			"9999"
+		"ypos"			"5"
+		"zpos"			"3"
+		"wide"			"22"
+		"tall"			"22"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			"../hud/health_bg"
+		"scaleImage"	"1"	
+	}	
+	"BuildingStatusHealthImageBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BuildingStatusHealthImageBG"
+		"xpos"			"0"
+		"ypos"			"2"
+		"zpos"			"2"
+		"wide"			"28"
+		"tall"			"28"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			"../hud/health_equip_bg"
+		"scaleImage"	"1"	
+	}	
+	"PlayerStatusHealthBonusImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusHealthBonusImage"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"3"
+		"wide"			"22"
+		"tall"			"22"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			"../hud/health_over_bg"
+		"scaleImage"	"1"	
+	}
+	"PlayerStatusHealthValue"
+	{
+		"ControlName"	"Label"
+		"fieldName"		"PlayerStatusHealthValue"
+		"xpos"			"-7"
+		"ypos"			"5"
+		"zpos"			"5"
+		"wide"			"50"
+		"tall"			"18"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"center"	
+		"font"			"KeepCalm16"
+		"labeltext"		"%health%"
+		"fgcolor_override"		"White"
+	}
+	"TargetIDHealthBG"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"TargetIDHealthBG"
+		"xpos"			"-4"		[$WIN32]
+		"ypos"			"0"	[$WIN32]
+		"zpos"			"-1"
+		"wide"			"60"
+		"tall"			"23"
+		"visible"		"1"
+		"enabled"		"1"
+		"defaultbgcolor_override"	"Blank"
+		"PaintBackgroundType"	"0"
+        "textinsety" 	"99"
+	}
+	"PlayerStatusPlayerLevel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusPlayerLevel"
+		"xpos"			"8"
+		"xpos_minmode"	"0"
+		"ypos"			"9"	[$WIN32]
+		"ypos"			"0"	[$X360]
+		"zpos"			"5"
+		"wide"			"16"
+		"tall"			"12"
+		"visible"		"0"
+		"enabled"		"1"
+		"textAlignment"	"center"	
+		"font"			"ScoreboardVerySmall"
+		"fgcolor"		"TFOrange"
+	}							
+}
