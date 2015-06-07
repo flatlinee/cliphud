@@ -31,6 +31,8 @@ Scheme
 		"AmmoReserveLow"	"170 0 0 255"
 		"AmmoNoClipLow"		"180 0 0 255"
 		
+		"HudAccent"			"0 193 63 255"
+		
 		"DamageNumbers"		"255 255 0 255"
 		"HealNumbers"		"100 170 240 255"
 		
@@ -2345,7 +2347,7 @@ Scheme
 			"1"
 			{
 				"name"		"Keep Calm Medium"
-				"tall"		"8"
+				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -2395,6 +2397,17 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"KeepCalm20"
+		{
+			"1"
+			{
+				"name"		"Keep Calm Medium"
+				"tall"		"20"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"KeepCalm24"
 		{
 			"1"
@@ -2426,6 +2439,273 @@ Scheme
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
+			}
+		}
+		
+		"Crosshairs"
+		{
+			"1"
+			{
+			"name"			"Crosshairs Regular"
+			"tall" 			"32"
+			"weight" 		"0"
+			"antialias" 	"1"
+			}
+		}
+		"Crosshairs8"
+		{
+			"1"
+			{
+			"name"			"Crosshairs Regular"
+			"tall" 			"8"
+			"weight" 		"0"
+			"antialias" 	"1"
+			}
+		}
+		
+		"Crosshairs10"
+		{
+			"1"
+			{
+			"name"			"Crosshairs Regular"
+			"tall" 			"10"
+			"weight" 		"0"
+			"antialias" 	"1"
+			}
+		}
+		
+		"Crosshairs12"
+		{
+			"1"
+			{
+			"name"			"Crosshairs Regular"
+			"tall" 			"12"
+			"weight" 		"0"
+			"antialias" 	"1"
+			}
+		}
+		
+		"Crosshairs14"
+		{
+			"1"
+			{
+			"name"			"Crosshairs Regular"
+			"tall" 			"14"
+			"weight" 		"0"
+			"antialias" 	"1"
+			}
+		}
+		
+		"Crosshairs16"
+		{
+			"1"
+			{
+			"name"			"Crosshairs Regular"
+			"tall" 			"16"
+			"weight" 		"0"
+			"antialias" 	"1"
+			}
+		}
+		
+		"Crosshairs18"
+		{
+			"1"
+			{
+			"name"			"Crosshairs Regular"
+			"tall" 			"18"
+			"weight" 		"0"
+			"antialias" 	"1"
+			}
+		}
+
+		"CrosshairsOutline18"
+		{
+			"1"
+			{
+			"name"			"Crosshairs Regular"
+			"tall" 			"18"
+			"weight" 		"0"
+			"antialias" 	"1"
+			"outline"		"1"
+			}
+		}
+		
+		"Crosshairs20"
+		{
+			"1"
+			{
+			"name"			"Crosshairs Regular"
+			"tall" 			"20"
+			"weight" 		"0"
+			"antialias" 	"1"
+			}
+		}
+		
+		"Crosshairs22"
+		{
+			"1"
+			{
+			"name"			"Crosshairs Regular"
+			"tall" 			"22"
+			"weight" 		"0"
+			"antialias" 	"1"
+			}
+		}
+		
+		"Crosshairs24"
+		{
+			"1"
+			{
+			"name"			"Crosshairs Regular"
+			"tall" 			"24"
+			"weight" 		"0"
+			"antialias" 	"1"
+			}
+		}
+		
+		"CrosshairsOutline24"
+		{
+			"1"
+			{
+			"name"			"Crosshairs Regular"
+			"tall" 			"24"
+			"weight" 		"0"
+			"antialias" 	"1"
+			"outline"		"1"
+			}
+		}
+		
+		"Crosshairs26"
+		{
+			"1"
+			{
+			"name"			"Crosshairs Regular"
+			"tall" 			"26"
+			"weight" 		"0"
+			"antialias" 	"1"
+			}
+		}
+		
+		"CrosshairsOutline26"
+		{
+			"1"
+			{
+			"name"			"Crosshairs Regular"
+			"tall" 			"26"
+			"weight" 		"0"
+			"antialias" 	"1"
+			"outline"		"1"
+			}
+		}
+		
+		"Crosshairs28"
+		{
+			"1"
+			{
+			"name"			"Crosshairs Regular"
+			"tall" 			"28"
+			"weight" 		"0"
+			"antialias" 	"1"
+			}
+		}
+		
+		"Crosshairs30"
+		{
+			"1"
+			{
+			"name"			"Crosshairs Regular"
+			"tall" 			"30"
+			"weight" 		"0"
+			"antialias" 	"1"
+			}
+		}
+		
+		"Crosshairs32"
+		{
+			"1"
+			{
+			"name"			"Crosshairs Regular"
+			"tall" 			"32"
+			"weight" 		"0"
+			"antialias" 	"1"
+			}
+		}
+
+		"CrosshairsOutline32"
+		{
+			"1"
+			{
+			"name"			"Crosshairs Regular"
+			"tall" 			"32"
+			"weight" 		"0"
+			"antialias" 	"1"
+			"outline"		"1"
+			}
+		}
+		
+		"Crosshairs34"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"34"
+			"weight" 		"0"
+			"antialias" 	"1"
+			}
+		}
+		
+		"CrosshairsOutline34"
+		{
+			"1"
+			{
+			"name"			"Crosshairs Regular"
+			"tall" 			"34"
+			"weight" 		"0"
+			"antialias" 	"1"
+			"outline"		"1"
+			}
+		}
+		
+		"Crosshairs36"
+		{
+			"1"
+			{
+			"name"			"Crosshairs Regular"
+			"tall" 			"36"
+			"weight" 		"0"
+			"antialias" 	"1"
+			}
+		}
+		
+		"Crosshairs38"
+		{
+			"1"
+			{
+			"name"			"Crosshairs Regular"
+			"tall" 			"38"
+			"weight" 		"0"
+			"antialias" 	"1"
+			}
+		}
+		
+		"Crosshairs40"
+		{
+			"1"
+			{
+			"name"			"Crosshairs Regular"
+			"tall" 			"40"
+			"weight" 		"0"
+			"antialias" 	"1"
+			}
+		}
+		"Blocks48"
+		{
+			"1"
+			{
+				"name"		"Blocks"
+				"tall"		"48"
+				"weight"	"0"
+				"antialias"	"1"
 			}
 		}
 		"EconFontSmall"
@@ -2783,8 +3063,8 @@ Scheme
 			//"image"					"../hud/color_panel_browner"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"8"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		TFFatLineBorderOpaque
 		{
@@ -2794,8 +3074,8 @@ Scheme
 			"image"					"../hud/color_panel_brown_opaque"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		TFFatLineBorder
 		{
@@ -2805,8 +3085,8 @@ Scheme
 			"image"					"../hud/color_panel_brown"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		TFFatLineBorderRedBGOpaque
 		{
@@ -2816,8 +3096,8 @@ Scheme
 			"image"					"../hud/color_panel_red_opaque"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		TFFatLineBorderRedBGOpaque_Store
 		{
@@ -2827,8 +3107,8 @@ Scheme
 			"image"					"../hud/color_panel_red_opaque"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
-			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"11"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		TFFatLineBorderRedBG
 		{
@@ -2838,8 +3118,8 @@ Scheme
 			"image"					"../hud/color_panel_red"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		TFFatLineBorderBlueBG
 		{
@@ -2849,8 +3129,8 @@ Scheme
 			"image"					"../hud/color_panel_blu"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 
 		ToolTipBorder
@@ -4374,6 +4654,18 @@ Scheme
 		{
 			"font" "resource/fonts/KeepCalm-Medium.ttf"
 			"name" "Keep Calm Medium"
-		}			
+		}
+		"8"
+		{
+			"font" "resource/fonts/crosshairs.ttf"
+			"name" "Crosshairs Regular"
+		}
+		"9"
+		{
+		
+			"font" "resource/fonts/Blocks.ttf"
+			"name" "Blocks"
+		}
+		
 	}
 }

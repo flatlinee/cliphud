@@ -2,55 +2,58 @@
 {
 	"ResumeGameButton"
 	{
-		"label"			"#MMenu_ResumeGame"
+		"label"			"Resume"
 		"command"		"ResumeGame"
 		"OnlyInGame"	"1"
 		"subimage" "icon_resume"
 	}
 	"QuickplayButton"
 	{
-		"label" "#MMenu_PlayMultiplayer" 
+		"label" "Quickplay" 
 		"command" "quickplay"
 		"subimage" "glyph_multiplayer"
 		"OnlyAtMenu" "1"
 	}
 	"QuickplayChangeButton"
 	{
-		"label" "#MMenu_NewGame" 
-		"command" "quickplay"
-		"subimage" "glyph_server"
+		"label" "" 
+		"command" ""
+		"subimage" ""
 		"OnlyInGame" "1"
 	}
 	"PlayPVEButton"
 	{
-		"label" "#MMenu_PlayCoop" 
+		"label" "" 
+		"tooltip"	"Play MvM"
 		"command" "playpve"
 		"subimage" "glyph_coop"
-		"OnlyAtMenu" "1"
+		"OnlyAtMenu" "0"
 	}
 	"ServerBrowserButton"
 	{
-		"label" "#MMenu_Servers" 
+		"label" "Servers" 
 		"command" "OpenServerBrowser"
 		"subimage" "glyph_server_browser"
 		"OnlyAtMenu" "1"
 	} 
 	"ChangeServerButton"
 	{
-		"label" "#MMenu_ChangeServer" 
+		"label" "Change" 
 		"command" "OpenServerBrowser"
 		"subimage" "glyph_server_browser"
 		"OnlyInGame" "1"
 	}
 	"ReplayBrowserButton"
 	{
-		"label" "#GameUI_GameMenu_ReplayDemos"
+		"label" ""
 		"command" "engine replay_reloadbrowser"
+		"tooltip"	"Replays"
 		"subimage" "glyph_tv"
 	}
 	"SteamWorkshopButton"
 	{
-		"label" "#MMenu_SteamWorkshop"
+		"label" ""
+		"tooltip"	"Workshop"
 		"command" "engine OpenSteamWorkshopDialog"
 		"subimage" "glyph_steamworkshop"
 	}
@@ -63,29 +66,30 @@
 	}
 	"TrainingButton"
 	{
-		"label" "#TF_Training"
+		"label" ""
+		"tooltip"	"Training"
 		"command" "offlinepractice"
 		"subimage" "glyph_practice"
-		"OnlyAtMenu" "1"
+		"OnlyAtMenu" "0"
 	}
 	
 	// These buttons get positioned by the MainMenuOverride.res	
 	"CreateServerButton"
 	{
-		"label" "#GameUI_GameMenu_CreateServer"
+		"label" ""
 		"command" "OpenCreateMultiplayerGameDialog"
-		"OnlyAtMenu" "1"
-		"tooltip" "#GameUI_GameMenu_CreateServer"
+		"OnlyAtMenu" "0"
+		"tooltip" "Create Server"
 	}
 	"GeneralStoreButton"
 	{
-		"label" "#MMenu_Shop"
+		"label" "Store"
 		"command" "engine open_store"
 		"subimage" "glyph_store"
 	}	
 	"CharacterSetupButton"
 	{
-		"label" "#MMenu_CharacterSetup"
+		"label" "Items"
 		"command" "engine open_charinfo"
 		"subimage" "glyph_items"
 	}

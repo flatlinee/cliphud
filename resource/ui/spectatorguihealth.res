@@ -61,11 +61,11 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"-7"
-		"ypos"			"5"
+		"xpos"			"-3"
+		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"50"
-		"tall"			"18"
+		"tall"			"19"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"	
@@ -77,11 +77,11 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"TargetIDHealthBG"
-		"xpos"			"-4"		[$WIN32]
+		"xpos"			"0"		[$WIN32]
 		"ypos"			"0"	[$WIN32]
 		"zpos"			"-1"
-		"wide"			"60"
-		"tall"			"23"
+		"wide"			"100"
+		"tall"			"19"
 		"visible"		"1"
 		"enabled"		"1"
 		"defaultbgcolor_override"	"Blank"

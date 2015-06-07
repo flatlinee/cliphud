@@ -73,9 +73,9 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"PaintBackground"	"1"
-			"defaultbgcolor_override"		"HealthBuff"
-			"armedbgcolor_override" 		"HealthBuff"
-			"depressedbgcolor_override"		"HealthBuff"
+			"defaultbgcolor_override"		"HudAccent"
+			"armedbgcolor_override" 		"HudAccent"
+			"depressedbgcolor_override"		"HudAccent"
 			"textinsetx"	"999999"
 
 		}
@@ -121,9 +121,9 @@
 		
 		"bgcolor"			"0 0 0 0"
 		"defaultBgColor_override" 	"0 0 0 0"
-		"armedBgColor_override" 	"HealthBuff"
+		"armedBgColor_override" 	"HudAccent"
 		"depressedBgColor_override" 	"0 0 0 0"
-		"selectedBgColor_override" 	"HealthBuff"
+		"selectedBgColor_override" 	"HudAccent"
 			
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -206,9 +206,9 @@
 		
 		"bgcolor"			"0 0 0 0"
 		"defaultBgColor_override" 	"0 0 0 0"
-		"armedBgColor_override" 	"HealthBuff"
+		"armedBgColor_override" 	"HudAccent"
 		"depressedBgColor_override" 	"0 0 0 0"
-		"selectedBgColor_override" 	"HealthBuff"
+		"selectedBgColor_override" 	"HudAccent"
 			
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -264,9 +264,9 @@
 		
 		"bgcolor"			"0 0 0 0"
 		"defaultBgColor_override" 	"0 0 0 0"
-		"armedBgColor_override" 	"HealthBuff"
+		"armedBgColor_override" 	"HudAccent"
 		"depressedBgColor_override" 	"0 0 0 0"
-		"selectedBgColor_override" 	"HealthBuff"
+		"selectedBgColor_override" 	"HudAccent"
 			
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -322,9 +322,9 @@
 		
 		"bgcolor"			"0 0 0 0"
 		"defaultBgColor_override" 	"0 0 0 0"
-		"armedBgColor_override" 	"HealthBuff"
+		"armedBgColor_override" 	"HudAccent"
 		"depressedBgColor_override" 	"0 0 0 0"
-		"selectedBgColor_override" 	"HealthBuff"
+		"selectedBgColor_override" 	"HudAccent"
 			
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -407,9 +407,9 @@
 		
 		"bgcolor"			"0 0 0 0"
 		"defaultBgColor_override" 	"0 0 0 0"
-		"armedBgColor_override" 	"HealthBuff"
+		"armedBgColor_override" 	"HudAccent"
 		"depressedBgColor_override" 	"0 0 0 0"
-		"selectedBgColor_override" 	"HealthBuff"
+		"selectedBgColor_override" 	"HudAccent"
 			
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -465,9 +465,9 @@
 		
 		"bgcolor"			"0 0 0 0"
 		"defaultBgColor_override" 	"0 0 0 0"
-		"armedBgColor_override" 	"HealthBuff"
+		"armedBgColor_override" 	"HudAccent"
 		"depressedBgColor_override" 	"0 0 0 0"
-		"selectedBgColor_override" 	"HealthBuff"
+		"selectedBgColor_override" 	"HudAccent"
 			
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -523,9 +523,9 @@
 		
 		"bgcolor"			"0 0 0 0"
 		"defaultBgColor_override" 	"0 0 0 0"
-		"armedBgColor_override" 	"HealthBuff"
+		"armedBgColor_override" 	"HudAccent"
 		"depressedBgColor_override" 	"0 0 0 0"
-		"selectedBgColor_override" 	"HealthBuff"
+		"selectedBgColor_override" 	"HudAccent"
 			
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -608,9 +608,9 @@
 		
 		"bgcolor"			"0 0 0 0"
 		"defaultBgColor_override" 	"0 0 0 0"
-		"armedBgColor_override" 	"HealthBuff"
+		"armedBgColor_override" 	"HudAccent"
 		"depressedBgColor_override" 	"0 0 0 0"
-		"selectedBgColor_override" 	"HealthBuff"
+		"selectedBgColor_override" 	"HudAccent"
 			
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -666,9 +666,9 @@
 		
 		"bgcolor"			"0 0 0 0"
 		"defaultBgColor_override" 	"0 0 0 0"
-		"armedBgColor_override" 	"HealthBuff"
+		"armedBgColor_override" 	"HudAccent"
 		"depressedBgColor_override" 	"0 0 0 0"
-		"selectedBgColor_override" 	"HealthBuff"
+		"selectedBgColor_override" 	"HudAccent"
 			
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -724,9 +724,9 @@
 		
 		"bgcolor"			"0 0 0 0"
 		"defaultBgColor_override" 	"0 0 0 0"
-		"armedBgColor_override" 	"HealthBuff"
+		"armedBgColor_override" 	"HudAccent"
 		"depressedBgColor_override" 	"0 0 0 0"
-		"selectedBgColor_override" 	"HealthBuff"
+		"selectedBgColor_override" 	"HudAccent"
 			
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -1201,10 +1201,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numScout"
-		"xpos"			"57"
+		"xpos"			"77"
 		"ypos"			"115"
 		"zpos"			"5"
-		"wide"			"50"
+		"wide"			"10"
 		"tall"			"20"
 		"autoResize"	"1"
 		"pinCorner"		"2"
@@ -1221,10 +1221,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSoldier"
-		"xpos"			"57"
+		"xpos"			"77"
 		"ypos"			"140"
 		"zpos"			"5"
-		"wide"			"50"
+		"wide"			"10"
 		"tall"			"20"
 		"autoResize"	"1"
 		"pinCorner"		"2"
@@ -1241,10 +1241,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numPyro"
-		"xpos"			"57"
+		"xpos"			"77"
 		"ypos"			"165"
 		"zpos"			"5"
-		"wide"			"50"
+		"wide"			"10"
 		"tall"			"20"
 		"autoResize"	"1"
 		"pinCorner"		"2"
@@ -1261,10 +1261,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numDemoman"
-		"xpos"			"57"
+		"xpos"			"77"
 		"ypos"			"190"
 		"zpos"			"5"
-		"wide"			"50"
+		"wide"			"10"
 		"tall"			"20"
 		"autoResize"	"1"
 		"pinCorner"		"2"
@@ -1281,10 +1281,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numHeavy"
-		"xpos"			"57"
+		"xpos"			"77"
 		"ypos"			"215"
 		"zpos"			"5"
-		"wide"			"50"
+		"wide"			"10"
 		"tall"			"20"
 		"autoResize"	"1"
 		"pinCorner"		"2"
@@ -1301,10 +1301,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numEngineer"
-		"xpos"			"57"
+		"xpos"			"77"
 		"ypos"			"240"
 		"zpos"			"5"
-		"wide"			"50"
+		"wide"			"10"
 		"tall"			"20"
 		"autoResize"	"1"
 		"pinCorner"		"2"
@@ -1321,10 +1321,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numMedic"
-		"xpos"			"57"
+		"xpos"			"77"
 		"ypos"			"265"
 		"zpos"			"5"
-		"wide"			"50"
+		"wide"			"10"
 		"tall"			"20"
 		"autoResize"	"1"
 		"pinCorner"		"2"
@@ -1341,10 +1341,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSniper"
-		"xpos"			"57"
+		"xpos"			"77"
 		"ypos"			"290"
 		"zpos"			"5"
-		"wide"			"50"
+		"wide"			"10"
 		"tall"			"20"
 		"autoResize"	"1"
 		"pinCorner"		"2"
@@ -1361,10 +1361,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSpy"
-		"xpos"			"57"
+		"xpos"			"77"
 		"ypos"			"315"
 		"zpos"			"5"
-		"wide"			"50"
+		"wide"			"10"
 		"tall"			"20"
 		"autoResize"	"1"
 		"pinCorner"		"2"

@@ -187,7 +187,7 @@
 		"tall"			"34"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"fgcolor"		"TransparentBlack"
 		
@@ -235,7 +235,7 @@
 		"tall_lodef"	"75"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"fgcolor"		"TransparentBlack"
 		
@@ -303,7 +303,7 @@
 		"tall"			"34"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"fgcolor"		"TransparentBlack"
 		
@@ -350,7 +350,7 @@
 		"tall"			"55"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		
 		if_mvm
@@ -1042,7 +1042,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Kills"
-			"font"			"KeepCalm48"
+			"font"			"KeepCalm36"
 			"labelText"		"%kills%"
 			"textAlignment"		"east"
 			"xpos"			"143"
@@ -1060,7 +1060,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Deaths"
-			"font"			"KeepCalm48"
+			"font"			"KeepCalm36"
 			"labelText"		"%deaths%"
 			"textAlignment"		"west"
 			"xpos"			"229"

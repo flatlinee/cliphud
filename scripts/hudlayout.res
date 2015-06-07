@@ -1,5 +1,28 @@
 "Resource/HudLayout.res"
 {
+
+	"DamageCircleDot"
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"DamageCircleDot"
+		"visible"		"1"
+		"enabled"		"1"
+		"zpos"			"2"
+
+		"xpos"			"c-100"
+		"ypos"			"c-97"
+		"wide"			"200"
+		"tall"			"200"
+
+		//"font"		"KonrWingsOutline24"
+
+		"font"			"Crosshairs34"
+		"labelText"		"8"
+		"textAlignment"	"center"	
+		
+		"fgcolor"		"0 255 0 255"
+	}
+	
 	HudPlayerStatus
 	{
 		"fieldName" "HudPlayerStatus"
@@ -218,10 +241,8 @@
 		"fieldName" "DisguiseStatus"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"0"	[$WIN32]
-		"ypos"		"r80"	[$WIN32]
-		"xpos"		"50"	[$X360]
-		"ypos"		"330"	[$X360]
+		"xpos"		"90"	[$WIN32]
+		"ypos"		"r30"	[$WIN32]
 		"wide"		"500"
 		"tall"		"200"
 		"TextFont"	"Default"	[$X360]
@@ -268,7 +289,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"320"
+		"ypos"		"310"
 		"wide"	 	"252"
 		"tall"	 	"32"
 		"priority"	"35"
@@ -829,9 +850,10 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-150"
-		"ypos"					"215"
+		"ypos"					"50"
 		"wide"					"300"
 		"tall"					"300"
+		"zpos"					"999"
 	}
 
 	ArenaWinPanel
@@ -1101,7 +1123,6 @@
 		"enabled"				"1"
 		"xpos"					"c-90"
 		"ypos"					"-70"
-		"ypos_lodef"				"75"
 		"wide"					"180"
 		"tall"					"65"
 	}

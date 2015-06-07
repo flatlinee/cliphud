@@ -232,23 +232,18 @@
 
 		"FreezePanelBG"
 		{
-			"ControlName"		"CTFImagePanel"
+			"ControlName"		"CExImageButton"
 			"fieldName"		"FreezePanelBG"
 			"xpos"			"8"
 			"ypos"			"160"
 			"zpos"			"0"
 			"wide"			"256"
-			"tall"			"33"
+			"tall"			"19"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../hud/color_panel_blu"
-			"scaleImage"		"1"	
-			
-			"src_corner_height"		"23"				// pixels inside the image
-			"src_corner_width"		"23"
-				
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"PaintBackground"	"1"
+			"defaultbgcolor_override"		"0 0 0 200"
+			"textinsetx"	"999999"
 		}
 		
 		"FreezeLabel"
@@ -263,7 +258,7 @@
 			"tall"			"12"
 			"autoResize"		"0"
 			"pinCorner"		"0"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"labelText"		"#FreezePanel_Killer"
 			"textAlignment"		"North-West"
@@ -278,8 +273,8 @@
 			"xpos"			"8"
 			"ypos"			"160"
 			"zpos"			"1"
-			"wide"			"31"
-			"tall"			"31"
+			"wide"			"30"
+			"tall"			"19"
 			"visible"		"1"
 			"enabled"		"1"	
 			"HealthBonusPosAdj"	"9"
@@ -293,26 +288,27 @@
 		{	
 			"ControlName"	"Label"
 			"fieldName"		"FreezeLabelKiller"
-			"font"			"HudFontSmall"
-			"xpos"			"61"
-			"ypos"			"173"
+			"font"			"KeepCalm16"
+			"xpos"			"51"
+			"ypos"			"160"
 			"zpos"			"5"
 			"wide"			"252"
-			"tall"			"18"
+			"tall"			"19"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%killername%"
 			"textAlignment"		"Left"
+			"fgcolor_override"	"White"
 		}
 
 		"AvatarImage"
 		{
 			"ControlName"		"CAvatarImagePanel"
 			"fieldName"		"AvatarImage"
-			"xpos"			"49"
-			"ypos"			"174"
+			"xpos"			"40"
+			"ypos"			"162"
 			"zpos"			"0"
 			"wide"			"14"
 			"tall"			"14"
