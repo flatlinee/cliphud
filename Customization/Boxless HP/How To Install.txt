@@ -1,0 +1,1 @@
+drag these two files into your cliphud/resource/ui folders and prepare for boxless HP.
