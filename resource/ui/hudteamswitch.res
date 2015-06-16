@@ -13,16 +13,23 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/death_panel_blue_bg"
-		"scaleImage"		"1"
-		"teambg_2"		"../hud/death_panel_red_bg"
-		"teambg_3"		"../hud/death_panel_blue_bg"
+		"scaleImage"	"1"
+		"image"				"../hud/character_red_bg_clipped"	
+		"teambg_2"			"../hud/character_red_bg_clipped"
+		"teambg_2_lodef"	"../hud/character_red_bg_lodef_clipped"
+		"teambg_3"			"../hud/character_blue_bg_clipped"
+		"teambg_3_lodef"	"../hud/character_blue_bg_lodef_clipped"
+		
+		"src_corner_height"		"20"				// pixels inside the image
+		"src_corner_width"		"20"
+		"draw_corner_height"	"0"
+		"draw_corner_width"		"0"
 	}
 	"SwitchLabel"
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"SwitchLabel"
-		"font"			"TFFontMedium"
+		"font"			"KeepCalm16"
 		"xpos"			"80"
 		"ypos"			"58"
 		"ypos_hidef"	"40"
@@ -37,12 +44,13 @@
 		"wrap"			"1"
 		"labelText"		"#TF_teambalanced"
 		"textAlignment"		"North"
+		"fgcolor"		"White"
 	}
 	"BalanceLabel"
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"BalanceLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"KeepCalm12"
 		"xpos"			"80"
 		"ypos"			"28"
 		"ypos_hidef"	"23"
@@ -58,6 +66,7 @@
 		"wrap"			"1"
 		"labelText"		""
 		"textAlignment"		"North"
+		"fgcolor"		"White"
 	}
 	"SwitchImage"
 	{

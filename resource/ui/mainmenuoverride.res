@@ -583,7 +583,7 @@
 				"PaintBackgroundType" "2"
 				"paintbackground"	"0"
 				"fgcolor_override"	"White"
-				"fillcolor_override"	"0 0 0 0"
+				"fillcolor_override"	"0 0 0 200"
 			}
 		}
 		
