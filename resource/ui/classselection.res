@@ -456,7 +456,7 @@
 		"tabPosition"		"0"
 		"labelText"			"Heavy"	[$WIN32]
 		"textAlignment"		"east"
-		"Command"			"joinclass heavy"
+		"Command"			"joinclass heavyweapons"
 		"Default"			"0"
 		"font"				"KeepCalm16"
 		
