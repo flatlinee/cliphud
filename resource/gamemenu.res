@@ -49,7 +49,7 @@
 		"command" "engine replay_reloadbrowser"
 		"tooltip"	"Replays"
 		"subimage" "glyph_tv"
-	}
+	}	
 	"SteamWorkshopButton"
 	{
 		"label" ""

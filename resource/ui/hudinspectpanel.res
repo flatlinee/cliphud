@@ -6,21 +6,22 @@
 		"fieldName"		"itempanel"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"10"
-		"wide"			"270"
+		"zpos"			"1"
+		"wide"			"135"
 		"tall"			"100"
 		"visible"		"0"
 		"bgcolor_override"		"255 255 255 0"
 		"PaintBackgroundType"	"0"
 		
-		"model_xpos"		"10"
+		"model_xpos"		"0"
 		"model_center_y"	"1"
-		"model_wide"		"90"
+		"model_wide"		"135"
 		"model_tall"		"55"
 		
-		"text_xpos"		"90"
-		"text_wide"		"170"
-		"text_center"	"1"
+		"text_xpos"		"0"
+		"text_ypos"		"10"
+		"text_wide"		"135"
+		"text_center"	"0"
 		
 		"max_text_height"	"90"
 		"padding_height"	"40"
@@ -54,4 +55,3 @@
 			"brighttext"	"0"
 		}
 	}	
-}

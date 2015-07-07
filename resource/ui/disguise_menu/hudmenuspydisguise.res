@@ -2,7 +2,7 @@
 {
 	"MainBackground"	
 	{
-		"ControlName"	"CIconPanel"
+		"ControlName"	"CExImageButton"
 		"fieldName"		"MainBackground"
 		"xpos"			"0"
 		"ypos"			"15"
@@ -11,9 +11,45 @@
 		"tall"			"170"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
-		"icon"			"hud_menu_bg"
-		"iconColor"		"255 255 255 255"
+		"PaintBackground"	"1"
+		"defaultbgcolor_override"		"TransparentBlack"
+		"textinsetx"	"999999"
+	}
+	
+	"TopperBackground"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"TopperBackground"
+		"xpos"			"0"
+		"ypos"			"15"
+		"zpos"			"0"
+		"wide"			"470"
+		"tall"			"25"
+		"visible"		"1"
+		"enabled"		"1"
+		"PaintBackground"	"1"
+		"defaultbgcolor_override"		"0 0 0 0"
+		"textinsetx"	"999999"
+		
+		"BlueColor"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"BlueColor"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"5"
+			"wide"			"470"
+			"tall"			"35"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		""
+			"textAlignment"	"east"	
+			"textinsetx"	"0"
+			"font"			"BlankFont"
+			"fgcolor"		"255 255 255 0"
+			"bgcolor_override"	"TransparentBlack"
+			"paintbackgroundtype"	"2"
+		}
 	}
 
 	"Divider"
@@ -24,7 +60,7 @@
 		"ypos"			"65"
 		"zpos"			"1"
 		"wide"			"456"
-		"tall"			"2"
+		"tall"			"0"
 		"fillcolor"		"255 222 208 255"
 	}
 
@@ -37,8 +73,8 @@
 		"zpos"			"1"
 		"wide"			"45"
 		"tall"			"45"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"	"1"	
 		"icon"			"hud_spy_disguise_menu_icon"
 		"iconColor"		"255 255 255 255"
@@ -48,9 +84,9 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontGiantBold"
+		"font"			"KeepCalm16"
 		"xpos"			"55"			// align me to the left edge of the first selection
-		"ypos"			"5"
+		"ypos"			"10"
 		"zpos"			"3"
 		"wide"			"360"
 		"tall"			"38"
@@ -59,19 +95,20 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Disguise_Title"
-		"textAlignment"	"Left"
+		"textAlignment"	"Center"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"fgcolor"		"White"
 	}
 	
 	"TitleLabelDropshadow"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelDropshadow"
-		"font"			"HudFontGiantBold"
-		"fgcolor"		"Black"
-		"xpos"			"55"			// align me to the left edge of the first selection
-		"ypos"			"6"
+		"font"			"KeepCalm16"
+		"fgcolor"		"TransparentBlack"
+		"xpos"			"56"			// align me to the left edge of the first selection
+		"ypos"			"11"
 		"zpos"			"3"
 		"wide"			"360"
 		"tall"			"38"
@@ -80,7 +117,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Disguise_Title"
-		"textAlignment"	"Left"
+		"textAlignment"	"Center"
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}	
@@ -91,7 +128,7 @@
 		"fieldName"		"ToggleLabel"
 		"font"			"Default"
 		"xpos"			"20"
-		"ypos"			"49"
+		"ypos"			"42"
 		"zpos"			"2"
 		"wide"			"200"
 		"tall"			"13"
@@ -103,6 +140,7 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"fgcolor"		"White"
 	}
 	
 	"CancelLabel"
@@ -111,7 +149,7 @@
 		"fieldName"		"CancelLabel"
 		"font"			"Default"
 		"xpos"			"250"
-		"ypos"			"49"
+		"ypos"			"42"
 		"zpos"			"2"
 		"wide"			"200"
 		"tall"			"13"
@@ -123,6 +161,7 @@
 		"textAlignment"	"east"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"fgcolor"		"White"
 	}
 	
 	"class_item_red_1"
@@ -132,7 +171,7 @@
 		"xpos"			"20"
 		"ypos"			"50"
 		"zpos"			"2"
-		"wide"			"45"
+		"wide"			"60"
 		"tall"			"120"
 		"visible"		"1"
 	}	
@@ -144,7 +183,7 @@
 		"xpos"			"20"
 		"ypos"			"50"
 		"zpos"			"2"
-		"wide"			"45"
+		"wide"			"60"
 		"tall"			"120"
 		"visible"		"0"
 	}
@@ -156,7 +195,7 @@
 		"xpos"			"60"
 		"ypos"			"50"
 		"zpos"			"2"
-		"wide"			"45"
+		"wide"			"60"
 		"tall"			"120"
 		"visible"		"1"
 	}	
@@ -168,7 +207,7 @@
 		"xpos"			"60"
 		"ypos"			"50"
 		"zpos"			"2"
-		"wide"			"45"
+		"wide"			"60"
 		"tall"			"120"
 		"visible"		"0"
 	}
@@ -180,7 +219,7 @@
 		"xpos"			"100"
 		"ypos"			"50"
 		"zpos"			"2"
-		"wide"			"45"
+		"wide"			"60"
 		"tall"			"120"
 		"visible"		"1"
 	}	
@@ -192,7 +231,7 @@
 		"xpos"			"100"
 		"ypos"			"50"
 		"zpos"			"2"
-		"wide"			"45"
+		"wide"			"60"
 		"tall"			"120"
 		"visible"		"0"
 	}
@@ -204,7 +243,7 @@
 		"xpos"			"172"
 		"ypos"			"50"
 		"zpos"			"2"
-		"wide"			"45"
+		"wide"			"60"
 		"tall"			"120"
 		"visible"		"1"
 	}	
@@ -216,7 +255,7 @@
 		"xpos"			"172"
 		"ypos"			"50"
 		"zpos"			"2"
-		"wide"			"45"
+		"wide"			"60"
 		"tall"			"120"
 		"visible"		"0"
 	}
@@ -228,7 +267,7 @@
 		"xpos"			"212"
 		"ypos"			"50"
 		"zpos"			"2"
-		"wide"			"45"
+		"wide"			"60"
 		"tall"			"120"
 		"visible"		"1"
 	}	
@@ -240,7 +279,7 @@
 		"xpos"			"212"
 		"ypos"			"50"
 		"zpos"			"2"
-		"wide"			"45"
+		"wide"			"60"
 		"tall"			"120"
 		"visible"		"0"
 	}
@@ -252,7 +291,7 @@
 		"xpos"			"252"
 		"ypos"			"50"
 		"zpos"			"2"
-		"wide"			"45"
+		"wide"			"60"
 		"tall"			"120"
 		"visible"		"1"
 	}	
@@ -264,7 +303,7 @@
 		"xpos"			"252"
 		"ypos"			"50"
 		"zpos"			"2"
-		"wide"			"45"
+		"wide"			"60"
 		"tall"			"120"
 		"visible"		"0"
 	}
@@ -276,7 +315,7 @@
 		"xpos"			"324"
 		"ypos"			"50"
 		"zpos"			"2"
-		"wide"			"45"
+		"wide"			"60"
 		"tall"			"120"
 		"visible"		"1"
 	}	
@@ -288,7 +327,7 @@
 		"xpos"			"324"
 		"ypos"			"50"
 		"zpos"			"2"
-		"wide"			"45"
+		"wide"			"60"
 		"tall"			"120"
 		"visible"		"0"
 	}
@@ -300,7 +339,7 @@
 		"xpos"			"364"
 		"ypos"			"50"
 		"zpos"			"2"
-		"wide"			"45"
+		"wide"			"60"
 		"tall"			"120"
 		"visible"		"1"
 	}	
@@ -312,7 +351,7 @@
 		"xpos"			"364"
 		"ypos"			"50"
 		"zpos"			"2"
-		"wide"			"45"
+		"wide"			"60"
 		"tall"			"120"
 		"visible"		"0"
 	}
@@ -324,7 +363,7 @@
 		"xpos"			"404"
 		"ypos"			"50"
 		"zpos"			"2"
-		"wide"			"45"
+		"wide"			"60"
 		"tall"			"120"
 		"visible"		"1"
 	}	
@@ -336,7 +375,7 @@
 		"xpos"			"404"
 		"ypos"			"50"
 		"zpos"			"2"
-		"wide"			"45"
+		"wide"			"60"
 		"tall"			"120"
 		"visible"		"0"
 	}

@@ -11,11 +11,13 @@
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"border"		"NotificationDefault"
-		"paintborder"			"1"
+		"border"		"NoBorder"
+		"paintborder"			"0"
 		"paintbackground"		"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"		"208 193 162 255"
+		"bgcolor_override"		"0 0 0 0"
+		"fgcolor"		"255 255 255 255"
+		"font"			"KeepCalm12"
 	}
 
 	"DeleteButton"
@@ -42,8 +44,8 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"Command"		"delete"
 		
-		"border_default"	"MainMenuMiniButtonDefault"
-		"border_armed"		"MainMenuMiniButtonArmed"
+		"border_default"	"NoBorder"
+		"border_armed"		"NoBorder"
 		"paintbackground"	"0"
 		
 		"defaultBgColor_override"	"100 90 85 255"		
@@ -51,8 +53,8 @@
 		"armedFgColor_override" "235 226 202 255"
 		"depressedFgColor_override" "46 43 42 255"
 		
-		"image_drawcolor"	"238 54 36 255"
-		"image_armedcolor"	"200 80 60 255"
+		"image_drawcolor"	"255 255 255 255"
+		"image_armedcolor"	"238 54 36 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -93,8 +95,8 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"Command"		"trigger"
 
-		"border_default"	"MainMenuMiniButtonDefault"
-		"border_armed"		"MainMenuMiniButtonArmed"
+		"border_default"	"NoBorder"
+		"border_armed"		"NoBorder"
 		"paintbackground"	"0"
 		
 		"defaultBgColor_override"	"0 90 85 255"
@@ -103,7 +105,7 @@
 		"depressedFgColor_override" "46 43 42 255"
 		
 		"image_drawcolor"	"255 255 255 255"
-		"image_armedcolor"	"200 80 60 255"
+		"image_armedcolor"	"0 193 63 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -144,8 +146,8 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"Command"		"accept"
 
-		"border_default"	"MainMenuMiniButtonDefault"
-		"border_armed"		"MainMenuMiniButtonArmed"
+		"border_default"	"NoBorder"
+		"border_armed"		"NoBorder"
 		"paintbackground"	"0"
 		
 		"defaultBgColor_override"	"100 90 85 255"
@@ -154,7 +156,7 @@
 		"depressedFgColor_override" "46 43 42 255"
 		
 		"image_drawcolor"	"255 255 255 255"
-		"image_armedcolor"	"200 80 60 255"
+		"image_armedcolor"	"0 193 63 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -195,8 +197,8 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"Command"		"decline"
 
-		"border_default"	"MainMenuMiniButtonDefault"
-		"border_armed"		"MainMenuMiniButtonArmed"
+		"border_default"	"NoBorder"
+		"border_armed"		"NoBorder"
 		"paintbackground"	"0"
 		
 		"defaultBgColor_override"	"100 90 85 255"		
@@ -204,8 +206,8 @@
 		"armedFgColor_override" "235 226 202 255"
 		"depressedFgColor_override" "46 43 42 255"
 		
-		"image_drawcolor"	"238 54 36 255"
-		"image_armedcolor"	"200 80 60 255"
+		"image_drawcolor"	"255 255 255 255"
+		"image_armedcolor"	"238 54 36 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"

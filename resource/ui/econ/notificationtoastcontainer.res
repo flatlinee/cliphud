@@ -11,9 +11,9 @@
 		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
-		"border"		"TFFatLineBorderOpaque"
+		"border"		"NoBorder"
+		"bgcolor_override"	"0 0 0 0"
 	}
-
 
 	"HelpTextLabel"
 	{	
