@@ -1,12 +1,6 @@
-# Clip-Hud
-Screenshots: https://imgur.com/a/172lD
+cliphud
+==========
 
-How to Download and Install: https://imgur.com/a/w3Ah6
+Hud contest hud created by flatline. 
 
-Original Damage Color:
-
-hud_combattext_red 255
-
-hud_combattext_green 255
-
-hud_combattext_blue 0
+ONLY WORKS WITH 16:9 ON WINDOWS PLEASE DO NOT ADD ME FOR 5.5:6.1 DUAL BOOT HACKINTOSHES RUNNING MAC OS 9 AND GENTOO
