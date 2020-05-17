@@ -12,19 +12,22 @@
 
 		"BlueScoreBG"
 		{
-			"ControlName"		"ImagePanel"
-			"fieldName"		"BlueScoreBG"
-			"xpos"			"9999"
-			"ypos"			"9999"
-			"wide"			"240"
-			"tall"			"50"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"0"
-			"enabled"		"0"
-			"image"			"../hud/winpanel_blue_bg_team"
-			"image_lodef"	"../hud/winpanel_blue_bg_team_lodef"
-			"scaleImage"		"1"
+			"ControlName"			"EditablePanel"
+			"fieldName"				"BlueScoreBG"
+			"wide"					"0"
+			"tall"					"0"
+			"visible"				"0"
+			"enabled"				"0"
+		}
+		
+		"RedScoreBG"
+		{
+			"ControlName"			"EditablePanel"
+			"fieldName"				"RedScoreBG"
+			"wide"					"0"
+			"tall"					"0"
+			"visible"				"0"
+			"enabled"				"0"
 		}
 		
 		"BlueColorr"
@@ -46,23 +49,6 @@
 			"bgcolor_override"	"70 130 180 255"
 			"paintbackgroundtype"	"2"
 		}
-		"RedScoreBG"
-		{
-			"ControlName"		"ImagePanel"
-			"fieldName"		"RedScoreBG"
-			"xpos"			"9999"
-			"ypos"			"9999"
-			"wide"			"240"
-			"tall"			"50"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"../hud/winpanel_red_bg_team"
-			"image_lodef"	"../hud/winpanel_red_bg_team_lodef"
-			"scaleImage"		"1"
-		}
-		
 		"RedColorr"
 		{
 			"ControlName"	"CExLabel"
@@ -137,7 +123,26 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"1"
-		}							
+		}
+		"BlueLeaderAvatar"
+		{
+			"ControlName"			"CAvatarImagePanel"
+			"fieldName"				"BlueLeaderAvatar"
+			"wide"					"0"
+			"tall"					"0"
+			"visible"				"0"
+			"enabled"				"0"
+		}
+		
+		"BlueLeaderAvatarBG"
+		{
+			"ControlName"			"EditablePanel"
+			"fieldName"				"BlueLeaderAvatarBG"
+			"wide"					"0"
+			"tall"					"0"
+			"visible"				"0"
+			"enabled"				"0"
+		}			
 		"RedTeamLabel"
 		{
 			"ControlName"		"CExLabel"
@@ -193,8 +198,37 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"1"
-		}							
+		}
+		"RedLeaderAvatar"
+		{
+			"ControlName"			"CAvatarImagePanel"
+			"fieldName"				"RedLeaderAvatar"
+			"wide"					"0"
+			"tall"					"0"
+			"visible"				"0"
+			"enabled"				"0"
+		}
+		
+		"RedLeaderAvatarBG"
+		{
+			"ControlName"			"EditablePanel"
+			"fieldName"				"RedLeaderAvatarBG"
+			"wide"					"0"
+			"tall"					"0"
+			"visible"				"0"
+			"enabled"				"0"
+		}
 
+	}
+	
+	"WinPanelBGBorder"
+	{
+		"ControlName"				"EditablePanel"
+		"fieldName"					"WinPanelBGBorder"
+		"wide"						"0"
+		"tall"						"0"
+		"visible"					"0"
+		"enabled"					"0"
 	}
 	
 	"BlueBG"

@@ -17,6 +17,11 @@
 		"src_corner_width" "3"
 		"draw_corner_width" "0"
 		"draw_corner_height" "0"
+		
+		if_match
+		{
+			"xpos"			"9999"
+		}
 	}
 	"TimePanelProgressBar"
 	{
@@ -36,6 +41,11 @@
 		"color_inactive"		"TimerProgress.InActive"
 		"color_warning"			"TimerProgress.Warning"
 		"percent_warning"		"0.75"
+		
+		if_match
+		{
+			"xpos"			"9999"
+		}
 	}
 	"WaitingForPlayersLabel"
 	{
@@ -55,6 +65,11 @@
 		"wrap"			"0"
 		"font"			"KeepCalm12"
 		"fgcolor"		"White"
+		
+		if_match
+		{
+			"xpos"			"9999"
+		}
 	}			
 	"WaitingForPlayersBG"
 	{
@@ -63,16 +78,18 @@
 		"xpos"			"9999"	[$WIN32]
 		"xpos"			"9999"	[$X360]
 		"ypos"			"31"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
 		"wide"			"80"
 		"tall"			"0"
-		"tall_minmode"	"0"
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"	
+		
+		if_match
+		{
+			"xpos"			"9999"
+		}
 	}
 	"OvertimeLabel"
 	{
@@ -91,6 +108,11 @@
 		"brighttext"		"0"
 		"wrap"			"0"
 		"font"			"KeepCalm12"
+		
+		if_match
+		{
+			"xpos"			"9999"
+		}
 	}			
 	"OvertimeBG"
 	{
@@ -99,16 +121,18 @@
 		"xpos"			"9999"	[$WIN32]
 		"xpos"			"9999"	[$X360]
 		"ypos"			"31"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
 		"wide"			"80"
 		"tall"			"20"
-		"tall_minmode"	"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"	
+		
+		if_match
+		{
+			"xpos"			"9999"
+		}
 	}
 	"SuddenDeathLabel"
 	{
@@ -119,8 +143,6 @@
 		"zpos"			"5"
 		"wide"			"80"
 		"tall"			"19"
-		"tall_hidef"	"19"
-		"tall_lodef"	"22"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#game_SuddenDeath"
@@ -130,6 +152,11 @@
 		"wrap"			"0"
 		"font"			"KeepCalm12"
 		"fgcolor"		"White"
+		
+		if_match
+		{
+			"xpos"			"9999"
+		}
 	}			
 	"SuddenDeathBG"
 	{
@@ -138,16 +165,18 @@
 		"xpos"			"9999"	[$WIN32]
 		"xpos"			"9999"	[$X360]
 		"ypos"			"31"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
 		"wide"			"80"
 		"tall"			"20"
-		"tall_minmode"	"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"	
+		
+		if_match
+		{
+			"xpos"			"9999"
+		}
 	}	
 	"SetupLabel"
 	{
@@ -167,6 +196,11 @@
 		"wrap"			"0"
 		"font"			"KeepCalm12"
 		"fgcolor"		"White"
+		
+		if_match
+		{
+			"xpos"			"9999"
+		}
 	}	
 	"SetupBG"
 	{
@@ -175,16 +209,18 @@
 		"xpos"			"9999"	[$WIN32]
 		"xpos"			"9999"	[$X360]
 		"ypos"			"31"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
 		"wide"			"80"
 		"tall"			"20"
-		"tall_minmode"	"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"	
+		
+		if_match
+		{
+			"xpos"			"9999"
+		}
 	}
 	"ServerTimeLimitLabel"
 	{
@@ -204,7 +240,11 @@
 		"wrap"			"0"
 		"font"			"KeepCalm12"
 		"fgcolor"		"White"
-
+		
+		if_match
+		{
+			
+		}
 	}	
 	"ServerTimeLimitLabelBG"
 	{
@@ -213,15 +253,17 @@
 		"xpos"			"9999"	[$WIN32]
 		"xpos"			"9999"	[$X360]
 		"ypos"			"31"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
 		"wide"			"80"
 		"tall"			"0"
-		"tall_minmode"	"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"	
+		
+		if_match
+		{
+			"xpos"			"9999"
+		}
 	}
 }

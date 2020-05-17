@@ -5,7 +5,7 @@
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"DamageCircleDot"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"zpos"			"2"
 
@@ -896,8 +896,8 @@
 		"xpos_lodef"			"c-190"
 		"ypos"				"270"
 		"ypos_lodef"			"250"
-		"wide"					"266"
-		"wide_lodef"			"400"
+		"wide"					"0"
+		"wide_lodef"			"0"
 		"tall"					"120"
 		"tall_lodef"			"190"
 	}
@@ -1395,7 +1395,18 @@
 		"tall"			"200"
 		"PaintBackgroundType"	"0"
 	}
-
+	
+	"ItemAttributeTracker"
+	{
+		"fieldName" 	"ItemAttributeTracker"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f5"
+		"tall"			"f0"
+		"PaintBackgroundType"	"0"
+	}
 
 	HudMiniGame
 	{
@@ -1406,5 +1417,78 @@
 		"ypos"	"0"
 		"wide"	"f0"
 		"tall"	"480"
+	}
+	
+	"QuestNotificationPanel"
+	{
+		"fieldName"	"QuestNotificationPanel"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"f0"
+	}
+
+	"MatchMakingContainer"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName" 		"MatchMakingContainer"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"	 		"f0"
+		"tall"	 		"f0"
+	}
+
+	HudSpectatorExtras
+	{
+		"fieldName" "HudSpectatorExtras"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"f0"
+	}
+
+	MatchSummary
+	{
+		"fieldName" "MatchSummary"
+		"visible" "0"
+		"enabled" "1"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"f0"
+	}
+
+	HudMatchStatus
+	{
+		"fieldName"				"HudMatchStatus"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"3"
+		"wide"					"f0"
+		"tall"					"f0"
+	}
+	
+	"QueueHUDStatus"
+	{
+		"fieldName"				"QueueHUDStatus"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"rs1-5"
+		"ypos"					"1"
+		"zpos"					"1001"
+		"wide"					"200"
+		"tall"					"18"
+		"proportionaltoparent"	"1"
+		"keyboardinputenabled"	"1"
+		"mouseinputenabled"		"0"
+		"alpha"					"100"
 	}
 }

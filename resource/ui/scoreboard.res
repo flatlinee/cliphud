@@ -14,16 +14,17 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"medal_width"		"15"
 		"tabPosition"		"0"
-		"avatar_width"		"54"	
-		"name_width"		"60"
-		"status_width"		"15"	
-		"nemesis_width"		"15"	
-		"class_width"		"15"	
-		"score_width"		"24"
-		"ping_width"		"24"
-		"streak_width"		"0"
+		"medal_width"		"12"
+		"avatar_width"		"55"
+		"spacer"			"2"
+		"name_width"		"85"
+		"nemesis_width"		"15"
+		"class_width"		"15"
+		"score_width"		"20"
+		"ping_width"		"20"
+		"killstreak_width"	"12"
+		"killstreak_image_width" "12"
 	}
 	"BlueScoreBG"
 	{
@@ -1039,10 +1040,10 @@
 			"enabled"		"1"
 			"fgcolor"		"White"
 		}												
-		"Kills"
+		"Kills2"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Kills"
+			"fieldName"		"Kills2"
 			"font"			"KeepCalm36"
 			"labelText"		"%kills%"
 			"textAlignment"		"east"
@@ -1057,10 +1058,10 @@
 			"enabled"		"1"
 			"fgcolor"		"White"
 		}						
-		"Deaths"
+		"Deaths2"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Deaths"
+			"fieldName"		"Deaths2"
 			"font"			"KeepCalm36"
 			"labelText"		"%deaths%"
 			"textAlignment"		"west"
@@ -1111,10 +1112,10 @@
 			"enabled"		"1"
 			"fgcolor"		"185 177 153 255"
 		}							
-		"Assists"
+		"Assists2"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Assists"
+			"fieldName"		"Assists2"
 			"font"			"KeepCalm10"
 			"labelText"		"%assists%"
 			"textAlignment"		"west"
@@ -1129,10 +1130,10 @@
 			"enabled"		"1"
 			"fgcolor"		"White"
 		}						
-		"Destruction"
+		"Destruction2"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Destruction"
+			"fieldName"		"Destruction2"
 			"font"			"KeepCalm10"
 			"labelText"		"%destruction%"
 			"textAlignment"		"west"
@@ -1219,10 +1220,10 @@
 			"enabled"		"1"
 			"fgcolor"		"White"
 		}						
-		"Captures"
+		"Captures2"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Captures"
+			"fieldName"		"Captures2"
 			"font"			"KeepCalm10"
 			"labelText"		"%captures%"
 			"textAlignment"		"west"
@@ -1237,10 +1238,10 @@
 			"enabled"		"1"
 			"fgcolor"		"White"
 		}						
-		"Defenses"
+		"Defenses2"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Defenses"
+			"fieldName"		"Defenses2"
 			"font"			"KeepCalm10"
 			"labelText"		"%defenses%"
 			"textAlignment"		"west"
@@ -1255,10 +1256,10 @@
 			"enabled"		"1"
 			"fgcolor"		"White"
 		}						
-		"Domination"
+		"Domination2"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Domination"
+			"fieldName"		"Domination2"
 			"font"			"KeepCalm10"
 			"labelText"		"%dominations%"
 			"textAlignment"		"west"
@@ -1273,10 +1274,10 @@
 			"enabled"		"1"
 			"fgcolor"		"White"
 		}						
-		"Revenge"
+		"Revenge2"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Revenge"
+			"fieldName"		"Revenge2"
 			"font"			"KeepCalm10"
 			"labelText"		"%Revenge%"
 			"textAlignment"		"west"
@@ -1363,10 +1364,10 @@
 			"enabled"		"1"
 			"fgcolor"		"White"
 		}						
-		"Healing"
+		"Healing2"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Healing"
+			"fieldName"		"Healing2"
 			"font"			"KeepCalm10"
 			"labelText"		"%healing%"
 			"textAlignment"		"west"
@@ -1381,10 +1382,10 @@
 			"enabled"		"1"
 			"fgcolor"		"White"
 		}						
-		"Invuln"
+		"Invuln2"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Invuln"
+			"fieldName"		"Invuln2"
 			"font"			"KeepCalm10"
 			"labelText"		"%invulns%"
 			"textAlignment"		"west"
@@ -1399,10 +1400,10 @@
 			"enabled"		"1"
 			"fgcolor"		"White"
 		}						
-		"Teleports"
+		"Teleports2"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Teleports"
+			"fieldName"		"Teleports2"
 			"font"			"KeepCalm10"
 			"labelText"		"%teleports%"
 			"textAlignment"		"west"
@@ -1417,10 +1418,10 @@
 			"enabled"		"1"
 			"fgcolor"		"White"
 		}						
-		"Headshots"
+		"Headshots2"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Headshots"
+			"fieldName"		"Headshots2"
 			"font"			"KeepCalm10"
 			"labelText"		"%headshots%"
 			"textAlignment"		"west"
@@ -1453,10 +1454,10 @@
 			"enabled"		"1"
 			"fgcolor"		"White"
 		}
-		"Backstabs"
+		"Backstabs2"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Backstabs"
+			"fieldName"		"Backstabs2"
 			"font"			"KeepCalm10"
 			"labelText"		"%backstabs%"
 			"textAlignment"		"west"	
@@ -1489,10 +1490,10 @@
 			"enabled"		"1"
 			"fgcolor"		"White"
 		}
-		"Bonus"
+		"Bonus2"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Bonus"
+			"fieldName"		"Bonus2"
 			"font"			"KeepCalm10"
 			"labelText"		"%bonus%"
 			"textAlignment"		"west"		[$WIN32]
@@ -1524,10 +1525,10 @@
 			"visible"		"0"
 			"enabled"		"1"
 		}
-		"Support"
+		"Support2"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Support"
+			"fieldName"		"Support2"
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"%support%"
 			"textAlignment"	"west"		[$WIN32]
@@ -1558,10 +1559,10 @@
 			"visible"		"0"
 			"enabled"		"0"
 		}
-		"Damage"
+		"Damage2"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Damage"
+			"fieldName"		"Damage2"
 			"font"			"KeepCalm16"
 			"labelText"		"%damage%"
 			"textAlignment"		"center"		[$WIN32]
@@ -1576,7 +1577,150 @@
 			"enabled"		"1"
 			"fgcolor"		"White"
 		}
-		
+		"Kills"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"Kills"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
+		}
+		"Deaths"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"Deaths"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
+		}
+		"Assists"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"Assists"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
+		}
+		"Destruction"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"Destruction"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
+		}
+		"Captures"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"Captures"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
+		}
+		"Defenses"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"Defenses"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
+		}
+		"Domination"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"Domination"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
+		}
+		"Revenge"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"Revenge"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
+		}
+		"Healing"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"Healing"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
+		}
+		"Invuln"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"Invuln"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
+		}
+		"Teleports"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"Teleports"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
+		}
+		"Headshots"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"Headshots"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
+		}
+		"Backstabs"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"Backstabs"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
+		}
+		"Bonus"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"Bonus"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
+		}
+		"Support"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"Support"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
+		}
+		"Damage"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"Damage"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
+		}
 	}
 
 	"ButtonLegendBG"		[$X360]

@@ -1,4 +1,12 @@
-tf2basehud
-==========
+# Clip-Hud
+Screenshots: https://imgur.com/a/172lD
 
-Team Fortress 2's original/basic HUD. Use this to start customizing your own.
+How to Download and Install: https://imgur.com/a/w3Ah6
+
+Original Damage Color:
+
+hud_combattext_red 255
+
+hud_combattext_green 255
+
+hud_combattext_blue 0

@@ -16,55 +16,25 @@
 	}
 	"topbar"
 	{
-		"ControlName"		"Panel"
+		"ControlName"	"Panel"
 		"fieldName"		"TopBar"
-		"xpos"			"0"
-		"ypos"			"0"
-		"tall"			"0"	[$WIN32]
-		"tall_minmode"			"0"	[$WIN32]
-		"tall"			"0"	[$X360]		
-		"wide"			"f0"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"		"0"
+		"visible"		"0"
+		"tall"			"0"
 	}
 	"BottomBar"
 	{
 		"ControlName"	"Frame"
 		"fieldName"		"BottomBar"
-		"xpos"			"0"
-		"ypos"			"r70"	[$WIN32]
-		"ypos"			"r90"	[$X360]		
-		"ypos_minmode"	"r20"
-		"tall"			"70"	[$WIN32]
-		"tall_minmode"	"0"		
-		"tall"			"90"	[$X360]		
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"0"
-		"tabPosition"		"0"
+		"visible"		"0"
+		"ypos"			"100"
+		"tall"			"0"
 	}
 	"bottombarblank"
 	{
 		"ControlName"		"Panel"
 		"fieldName"		"bottombarblank"
-		"xpos"			"0"
-		"ypos"			"r70"	[$WIN32]
-		"ypos"			"r90"	[$X360]		
-		"ypos_minmode"	"r0"
-		"tall"			"70"	[$WIN32]		// this needs to match the size of BottomBar
-		"tall_minmode"	"0"		
-		"tall"			"90"	[$X360]		
-		"wide"			"f0"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"visible_minmode"		"0"
-		"enabled"		"1"
-		"tabPosition"		"0"
+		"visible"		"0"
+		"ypos"			"480"
 	}
 	"ReinforcementsLabel"
 	{
@@ -111,7 +81,7 @@
 		"ypos"			"16"	[$WIN32]
 		"xpos"			"r285"	[$X360]
 		"ypos"			"32"	[$X360]
-		"wide"			"240"	[$WIN32]
+		"wide"			"0"	[$WIN32]
 		"wide"			"220"	[$X360]
 		"tall"			"20"
 		"tall_hidef"		"30"
@@ -133,9 +103,9 @@
 		"ypos"			"68"
 		"ypos_hidef"	"90"
 		"ypos_lodef"	"30"	
-		"wide"			"170"
-		"wide_hidef"	"130"
-		"wide_lodef"	"220"
+		"wide"			"0"
+		"wide_hidef"	"0"
+		"wide_lodef"	"0"
 		"tall"			"15"
 		"tall_lodef"	"25"
 		"zpos"			"2"
@@ -161,8 +131,8 @@
 		"ypos"			"10"	[$WIN32]
 		"xpos"			"53"	[$X360]
 		"ypos"			"40"	[$X360]
-		"wide"			"60"	[$WIN32]
-		"wide"			"60"	[$X360]
+		"wide"			"0"	[$WIN32]
+		"wide"			"0"	[$X360]
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -183,8 +153,8 @@
 		"ypos"			"10"	[$WIN32]
 		"xpos"			"128"	[$X360]
 		"ypos"			"40"	[$X360]		
-		"wide"			"125"	[$WIN32]
-		"wide"			"95"	[$X360]		
+		"wide"			"0"	[$WIN32]
+		"wide"			"0"	[$X360]		
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -204,8 +174,8 @@
 		"ypos"			"20"	[$WIN32]
 		"xpos"			"53"	[$X360]
 		"ypos"			"50"	[$X360]		
-		"wide"			"60"	[$WIN32]
-		"wide"			"60"	[$X360]
+		"wide"			"0"	[$WIN32]
+		"wide"			"0"	[$X360]
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -225,8 +195,8 @@
 		"ypos"			"20"	[$WIN32]
 		"xpos"			"128"	[$X360]
 		"ypos"			"50"	[$X360]		
-		"wide"			"125"	[$WIN32]
-		"wide"			"95"	[$X360]	
+		"wide"			"0"	[$WIN32]
+		"wide"			"0"	[$X360]	
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -246,8 +216,8 @@
 		"ypos"			"30"	[$WIN32]
 		"xpos"			"53"	[$X360]
 		"ypos"			"60"	[$X360]		
-		"wide"			"60"	[$WIN32]
-		"wide"			"60"	[$X360]		
+		"wide"			"0"	[$WIN32]
+		"wide"			"0"	[$X360]		
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -267,8 +237,8 @@
 		"ypos"			"30"	[$WIN32]
 		"xpos"			"128"	[$X360]
 		"ypos"			"60"	[$X360]		
-		"wide"			"125"	[$WIN32]
-		"wide"			"95"	[$X360]
+		"wide"			"0"	[$WIN32]
+		"wide"			"0"	[$X360]
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -290,9 +260,9 @@
 		"ypos"			"r67"
 		"ypos_lodef"		"28"
 		"ypos_hidef"		"35"
-		"wide"			"145"
-		"wide_hidef"	"230"
-		"wide_lodef"	"240"
+		"wide"			"0"
+		"wide_hidef"	"0"
+		"wide_lodef"	"0"
 		"tall"			"64"
 		"tall_hidef"	"70"
 		"tall_lodef"	"70"
@@ -313,34 +283,34 @@
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"itempanel"
-		"xpos"			"r270"
-		"ypos"			"300"
-		"zpos"			"1"
-		"wide"			"135"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"10"
+		"wide"			"190"
 		"tall"			"100"
 		"visible"		"0"
 		"bgcolor_override"		"255 255 255 0"
 		"PaintBackgroundType"	"0"
 		
-		"model_xpos"		"0"
-		"model_center_y"	"1"
-		"model_wide"		"135"
-		"model_tall"		"55"
+		"model_ypos"		"10"
+		"model_center_x"	"1"
+		"model_wide"		"90"
+		"model_tall"		"60"
 		
-		"text_xpos"		"0"
+		"text_xpos"		"10"
 		"text_ypos"		"10"
-		"text_wide"		"135"
-		"text_center"	"0"
+		"text_wide"		"170"
+		"text_center"	"1"
 		
-		"max_text_height"	"90"
-		"padding_height"	"40"
+		"max_text_height"	"100"
+		"padding_height"	"10"
 		"resize_to_text"	"1"
 		"text_forcesize"	"2"
 		
 		"itemmodelpanel"
 		{
 			"fieldName"		"itemmodelpanel"
-			"use_item_rendertarget" "1"
+			"use_item_rendertarget" "0"
 			"useparentbg"		"1"
 		}
 		
@@ -364,4 +334,17 @@
 			"brighttext"	"0"
 		}
 	}	
+	"spectator_extras"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"spectator_extras"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"480"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+	}		
 }
